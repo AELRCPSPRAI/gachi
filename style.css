@@ -1,70 +1,19 @@
-body {
-    margin: 0;
-    background: url("../projects/image/pattern.png") ;
-    background-size: auto;
-    
-    font-family: Arial;
-    line-height: 1.5;
-    font-size: 20px;
+section {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
-
-.card {
-    width: 400px;
-    margin: 0 auto;
-    padding: 20px;
-
-    background-color: #fff;
-    box-shadow: 0 5px 10px #ccc;
-    border-radius: 10px;
-    
-    
+.carousel-control-prev-icon {
+background-image: url(../image/penis-7684.svg);
 }
-.card-photo {
-    display: block;
-    width: 200px;
-    height: 200px;
-    margin: 0 auto;
-    border-radius: 50%;
-    
+.carousel-control-next-icon {
+background-image: url(../image/penis-7684.svg);
 }
-.card-title {
-    font: Tahoma;
-    font-size: 20px;
-    text-align: center;
-    color: #000;
-    
-    
+.carousel-control-next, .carousel-control-prev {
+    width: 20px;
 }
-.card-text{
-    font-size: 20px;
-    text-align: left;
-    color: #f4afaf;
-    
+.carousel-control-prev {
+    left: -35px;
 }
-.card-subtitle {
-    color: #fff;
-    text-align: left;
-    font-size: 17px;
-    
-}
-.card-2{
-    display: block;
-    width: 200px;
-    height: 200px;
-    margin: left;
-    border-radius: 70%;
-}
-.card-3{
-    display: block;
-    width: 200px;
-    height: 200px;
-    margin: left;
-    border-radius: 70%;
-}
-.card-4{
-    display: block;
-    width: 200px;
-    height: 200px;
-    margin: left;
-    border-radius: 70%;
+.carousel-control-next {
+    right: -35px;
 }
